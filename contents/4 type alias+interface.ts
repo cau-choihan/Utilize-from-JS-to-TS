@@ -28,4 +28,32 @@ const nothing: Types.nothing = function () {
     return "It's nothing"
 }
 
-console.log(nothing);
+console.log(nothing);// Function:nothing
+console.log(nothing());// It's nothing
+
+const synthwave: Types.Genre = {
+    genre: 'synthwave',
+    name: 'nameeeee',
+    member: 3,
+    position: 'Guitar'
+}
+console.log(synthwave);
+
+const who: Types.profile = {
+    age: 20,
+    name: 'nameaaa',
+    password: 'secret'
+}
+console.log(who);
+
+const KeyString: Types.KeyString = {
+    A: 1,
+    B: 2,
+    C: 3
+}
+const FreeString: Types.FreeString = {
+    A: 4,
+    C: 5,
+    E: 6
+}
+console.log(KeyString, FreeString);
